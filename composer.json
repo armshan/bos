@@ -1,0 +1,27 @@
+{
+    "name": "armshan/baidubos",
+    "type": "library",
+    "description": "此包为个人学习使用composer发布自己的扩展,资源来自百度对象存储BOS。文件仅为测试下载使用，并无实际意义。",
+    "keywords": ["test", "personal", "Meaningless"],
+    "license": "MIT",
+    "homepage":"https://cloud.baidu.com/doc/BOS/ProductDescription.html#BOS.E6.98.AF.E4.BB.80.E4.B9.88.EF.BC.9F",
+    "authors": [
+        {
+            "name": "han",
+            "role": "Singularity"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle":"~6.0",
+        "monolog/monolog":">=1.0.0",
+        "psr/log":">=1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaiduBce\\": "BaiduBce",
+            "BaiduBce\\Services\\Bos\\":"BaiduBce/Services/Bos"
+        }
+    }
+
+}
