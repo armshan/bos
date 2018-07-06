@@ -13,7 +13,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "guzzle/guzzle":"v3.9.0",
+        "guzzle/guzzle":"~v2.0.0",
         "monolog/monolog":">=1.0.0",
         "psr/log":">=1.0.0"
     },
