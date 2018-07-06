@@ -19,8 +19,8 @@
     },
     "autoload": {
         "psr-4": {
-            "BaiduBce\\": "armshan/baidubos/BaiduBce",
-            "BaiduBce\\Services\\Bos\\":"armshan/baidubos/BaiduBce/Services/Bos"
+            "BaiduBce\\": "BaiduBce",
+            "BaiduBce\\Services\\Bos\\":"BaiduBce/Services/Bos"
         }
     }
 
