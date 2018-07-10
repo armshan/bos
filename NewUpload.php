@@ -56,7 +56,7 @@ class  NewUpload extends Component
             throw new Yii\base\UnknownPropertyException('库不存在,请传入或者获取正确的库名称');
         }
         if(!empty($uploadedFile->name) && !empty($uploadedFile->tempName)){
-            $Key=substr(microtime(),3,8).$uploadedFile->name.'.jpg';
+            $Key=substr(microtime(),3,18).$uploadedFile->name.'.jpg';
             return self::$BaiduBos->putObjectFromFile($bucket,$Key,$uploadedFile->tempName);
         }else{
             throw new Yii\base\UnknownPropertyException('上传信息错误,请重试');
